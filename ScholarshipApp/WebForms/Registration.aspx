@@ -7,6 +7,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link href="../Content/css/styles.css" rel="stylesheet" />
+	
+    <%--Toaster Message References--%>
+    <link href="../Content/toaster/toastr.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="../Content/toaster/toastr.js"></script>
+
 </head>
 <body>
 
