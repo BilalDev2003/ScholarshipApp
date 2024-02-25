@@ -2,6 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/.vs/ScholarshipApp
 /ScholarshipApp/Bin
 /.vs/ScholarshipApp/v17
 /.vs/ScholarshipApp/FileContentIndex

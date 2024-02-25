@@ -39,7 +39,18 @@ public partial class Registration : System.Web.UI.Page
             bridge.Open();
 
         int noofrowseffected = command.ExecuteNonQuery();
+        if (noofrowseffected > 0)
+        {
+            ClearControls();
+        }
+    }
 
+    private void ClearControls()
+    {
+        txtUsername.Text = string.Empty;
+        txtEmail.Text = string.Empty;
+        txtPassword.Text = string.Empty;
+        txtMobile.Text = string.Empty;
     }
 }
 
