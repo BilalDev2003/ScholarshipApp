@@ -9,16 +9,18 @@ using System.Web.UI.WebControls;
 
 public partial class Registration : System.Web.UI.Page
 {
-    SqlConnection bridge;
+	SqlConnection bridge;
+	Resources resources = null;
 
-    public Registration()
-    {
-        bridge = new SqlConnection("Data Source= LAPTOP-I52TFVIL; Initial Catalog= Scholarship;Integrated Security= True");
-    }
-    protected void Page_Load(object sender, EventArgs e)
-    {
+	public Registration()
+	{
+		bridge = new SqlConnection("Data Source= DESKTOP-5H6GD9S\\SQLEXPRESS; Initial Catalog= Scholarship;Integrated Security= True");
+		resources = new Resources();
+	}
+	protected void Page_Load(object sender, EventArgs e)
+	{
 
-    }
+	}
 
     protected void btnSignup_Click(object sender, EventArgs e)
     {
@@ -60,13 +62,13 @@ public partial class Registration : System.Web.UI.Page
        
     }
 
-    private void ClearControls()
-    {
-        txtUsername.Text = string.Empty;
-        txtEmail.Text = string.Empty;
-        txtPassword.Text = string.Empty;
-        txtMobile.Text = string.Empty;
-    }
+	private void ClearControls()
+	{
+		txtUsername.Text = string.Empty;
+		txtEmail.Text = string.Empty;
+		txtPassword.Text = string.Empty;
+		txtMobile.Text = string.Empty;
+	}
 }
 
 
