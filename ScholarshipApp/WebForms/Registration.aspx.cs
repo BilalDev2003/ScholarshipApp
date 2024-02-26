@@ -14,7 +14,7 @@ public partial class Registration : System.Web.UI.Page
 
 	public Registration()
 	{
-		bridge = new SqlConnection("Data Source= DESKTOP-5H6GD9S\\SQLEXPRESS; Initial Catalog= Scholarship;Integrated Security= True");
+		bridge = new SqlConnection("Data Source= LAPTOP-I52TFVIL; Initial Catalog= Scholarship;Integrated Security= True");
 		resources = new Resources();
 	}
 	protected void Page_Load(object sender, EventArgs e)
