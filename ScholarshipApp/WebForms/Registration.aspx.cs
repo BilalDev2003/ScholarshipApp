@@ -10,12 +10,9 @@ using System.Web.UI.WebControls;
 public partial class Registration : System.Web.UI.Page
 {
 	SqlConnection bridge;
-	Resources resources = null;
-
 	public Registration()
 	{
 		bridge = new SqlConnection("Data Source= LAPTOP-I52TFVIL; Initial Catalog= Scholarship;Integrated Security= True");
-		resources = new Resources();
 	}
 	protected void Page_Load(object sender, EventArgs e)
 	{
