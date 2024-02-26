@@ -7,6 +7,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link href="../Content/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
 
@@ -42,6 +45,7 @@
                 </div>
 
                 <asp:Button ID="btnSignup" runat="server" Text="Signup" OnClick="btnSignup_Click" />
+
                 <div class="signup_link">
                     Back to Login ? <a href="Login.aspx">Log in</a>
                 </div>
