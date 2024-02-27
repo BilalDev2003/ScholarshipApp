@@ -32,7 +32,7 @@
 
 
                 <div class="txt_field">
-                    <asp:TextBox ID="txtPassword" runat="server" required="required"></asp:TextBox>
+                    <asp:TextBox ID="txtPassword" runat="server" required="required" TextMode="Password"></asp:TextBox>
                     <span></span>
                     <label>Enter Password</label>
                 </div>
