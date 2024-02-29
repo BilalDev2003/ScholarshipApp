@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="WebForms_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Content/css/main.css" rel="stylesheet" />
+    <link href="../Content/css/responsive.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- for header part -->
+    <header>
+        <div class="logosec">
+            <div class="logo">Scholarship</div>
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png"
+                class="icn menuicn"
+                id="menuicn"
+                alt="menu-icon">
+        </div>
+    </header>
+    <!-- end header part -->
+
+    <div class="main-container">
+        <!-- for navigation part -->
+        <div class="navcontainer">
+            <nav class="nav">
+                <div class="nav-upper-options">
+                    <div class="nav-option option1">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182148/Untitled-design-(29).png"
+                            class="nav-img"
+                            alt="dashboard">
+                        <h3>Dashboard</h3>
+                    </div>
+
+                    <div class="option2 nav-option">
+                        <img src="../Content/images/8062190.png"
+                            class="nav-img"
+                            alt="apply">
+                        <h3>Apply Scholarship</h3>
+                    </div>
+
+                    <div class="nav-option option3">
+                        <img src="../Content/images/images.png"
+                            class="nav-img"
+                            alt="correction">
+                        <h3>Apply For Correction</h3>
+                    </div>
+
+                    <div class="nav-option option4">
+                        <img src="../Content/images/track-2976207-2483969.png"
+                            class="nav-img"
+                            alt="track ">
+                        <h3>Track Existing</h3>
+                    </div>
+
+                    <div class="nav-option option5">
+                        <img src="../Content/images/5987424.png"
+                            class="nav-img"
+                            alt="blog">
+                        <h3>Profile</h3>
+                    </div>
+
+                    <div class="nav-option logout">
+                        <img src="../Content/images/7.png"
+                            class="nav-img"
+                            alt="logout">
+                        <h3>Logout</h3>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <!-- end navigation part -->
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</body>
+</html>
