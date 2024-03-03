@@ -18,12 +18,18 @@
                 </div>
             </div>
             <asp:Button runat="server" ID="btnBox1" Style="display: none" OnClick="btnBox1_Click" />
+            <!-- for main part -->
             <asp:Button runat="server" ID="btnBox2" Style="display: none" OnClick="btnBox2_Click" />
+            <!-- for main part -->
             <asp:Button runat="server" ID="btnBox3" Style="display: none" OnClick="btnBox3_Click" />
+            <!-- for main part -->
             <asp:Button runat="server" ID="btnBox4" Style="display: none" OnClick="btnBox4_Click" />
+            <!-- for main part -->
 
             <div class="box-container">
                 <div class="box box1" onclick="document.getElementById('<%= btnBox1.ClientID %>').click()">
+                    <!-- pressing a button with div click -->
+
                     <div class="text">
                         <h2 class="topic-heading">Apply</h2>
                         <h2 class="topic">Fresh</h2>
@@ -31,6 +37,8 @@
                 </div>
 
                 <div class="box box2" onclick="document.getElementById('<%= btnBox2.ClientID %>').click()">
+                    <!-- pressing a button with div click -->
+
                     <div class="text">
                         <h2 class="topic-heading">Apply</h2>
                         <h2 class="topic">Correction</h2>
@@ -38,13 +46,17 @@
                 </div>
 
                 <div class="box box3" onclick="document.getElementById('<%= btnBox3.ClientID %>').click()">
+                    <!-- pressing a button with div click -->
+
                     <div class="text">
                         <h2 class="topic-heading">Track</h2>
                         <h2 class="topic">Existing</h2>
                     </div>
                 </div>
 
-                <div class="box box4" onclick="document.getElementById('<%= btnBox2.ClientID %>').click()">
+                <div class="box box4" onclick="document.getElementById('<%= btnBox4.ClientID %>').click()">
+                    <!-- pressing a button with div click -->
+
                     <div class="text">
                         <h2 class="topic-heading">Profile</h2>
                         <h2 class="topic">Details</h2>

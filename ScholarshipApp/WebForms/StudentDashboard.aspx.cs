@@ -22,15 +22,15 @@ public partial class WebForms_StudentDashboard : System.Web.UI.Page
     }
     protected void btnBox2_Click(object sender, EventArgs e)
     {
-        Response.Redirect("ApplyScholarship.aspx");
+        Response.Redirect("ApplyCorrection.aspx");
 
     }
     protected void btnBox3_Click(object sender, EventArgs e)
     {
-        Response.Redirect("ApplyScholarship.aspx");
+        Response.Redirect("TrackExisting.aspx");
     }
     protected void btnBox4_Click(object sender, EventArgs e)
     {
-        Response.Redirect("ApplyScholarship.aspx");
+        Response.Redirect("ProfileDetails.aspx");
     }
 }
